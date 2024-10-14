@@ -2,10 +2,10 @@
      "version": 2,
      "builds": [
        {
-         "src": "flask_vote_app.py", // Имя вашего файла с кодом Flask
+         "src": "flask_vote_app.py",
          "use": "@vercel/python",
          "config": {
-           "runtime": "python3.10" // Или другая версия Python
+           "runtime": "python3.10"
          }
        }
      ],
@@ -16,4 +16,3 @@
        }
      ]
    }
-  
